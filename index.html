@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Word Colors</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Word Colors</h1>
+      <div class="desc-wrapper">
+        <div class="desc">
+          <p>
+            Enter a keyword, click Go, and a colour scheme that matches your
+            keyword will be displayed below
+          </p>
+        </div>
+      </div>
+      <div class="input-container">
+        <input type="text" class="word-input" autofocus="true" />
+        <button class="input-btn">Go</button>
+      </div>
+
+      <div class="colors-container">
+        <div class="color-card">
+          <div class="color-box" id="color1"></div>
+        </div>
+        <div class="color-card">
+          <div class="color-box" id="color2"></div>
+        </div>
+        <div class="color-box color-card">
+          <div class="color-box" id="color3"></div>
+        </div>
+        <div class="color-box color-card">
+          <div class="color-box" id="color4"></div>
+        </div>
+        <div class="color-box color-card">
+          <div class="color-box" id="color5"></div>
+        </div>
+      </div>
+      <div class="hex-container">
+        <div class="hex-card">
+          <div class="hex color1-hex"></div>
+          <button class="copy-btn">
+            <div class="copy-icon-wrapper">
+              <div class="copy-icon-div1"></div>
+              <div class="copy-icon-div2"></div>
+            </div>
+          </button>
+        </div>
+        <div class="hex-card">
+          <div class="hex color2-hex"></div>
+          <button class="copy-btn">
+            <div class="copy-icon-wrapper">
+              <div class="copy-icon-div1"></div>
+              <div class="copy-icon-div2"></div>
+            </div>
+          </button>
+        </div>
+        <div class="hex-card">
+          <div class="hex color3-hex"></div>
+          <button class="copy-btn">
+            <div class="copy-icon-wrapper">
+              <div class="copy-icon-div1"></div>
+              <div class="copy-icon-div2"></div>
+            </div>
+          </button>
+        </div>
+        <div class="hex-card">
+          <div class="hex color4-hex"></div>
+          <button class="copy-btn">
+            <div class="copy-icon-wrapper">
+              <div class="copy-icon-div1"></div>
+              <div class="copy-icon-div2"></div>
+            </div>
+          </button>
+        </div>
+        <div class="hex-card">
+          <div class="hex color5-hex"></div>
+          <button class="copy-btn">
+            <div class="copy-icon-wrapper">
+              <div class="copy-icon-div1"></div>
+              <div class="copy-icon-div2"></div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="copy-msg">Copied to clipboard</div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
